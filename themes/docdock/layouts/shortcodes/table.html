@@ -1,0 +1,11 @@
+{{ $caption := .Get "caption" | default "" }}
+{{ $paging := .Get "paging" | default 0 }}
+{{ $responsive := .Get "responsive" | default 0 }}
+
+{{ $id := index (seq 999 | shuffle) 0 }}
+{{ $id2 := index (seq 999 | shuffle) 0 }}
+
+<table id="table-{{ $id }}0{{ $id2 }}" class="table table-striped{{ if eq $responsive 1 }} table-responsive{{ end }}">
+  <caption>{{ $caption }}</caption>
+  {{ .Inner }}
+</table>

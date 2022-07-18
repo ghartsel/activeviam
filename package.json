@@ -1,0 +1,14 @@
+{
+    "name": "@figure/docs",
+    "version": "1.0.0",
+    "license": "UNLICENSED",
+    "main": "index.ts",
+    "dependencies": {},
+    "scripts": {
+        "clean": "rm -rf build",
+        "dev-start": "hugo server",
+        "build": "hugo",
+        "deploy": "cd ../scripts/k8s/telemetry/ && ./deploy.sh docs",
+        "s3-deploy": "if [ -z ${DRY_RUN} ]; then yarn clean && yarn build && aws s3 sync --delete build s3://telemetry-${ENV}-docs.figure.works/ --profile figure-${ENV}; fi"
+    }
+}
