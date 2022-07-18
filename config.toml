@@ -49,7 +49,7 @@ home = [ "HTML", "RSS", "JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> <label>Github repo</label>"
 identifier = "ds"
-url = "https://github.com/ghartsel/activeviam"
+url = "https://github.com/ghartsel/activeviam/tree/master"
 weight = 10
 
 # [[menu.shortcuts]]
