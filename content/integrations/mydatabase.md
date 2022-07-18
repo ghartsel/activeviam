@@ -7,13 +7,18 @@ weight = 100
 
 This document describes the input file format and output database table format for integration with myDatabase.
 
-# Input File Format
+# Input File Formats
 
-TBD
+The myDatabase table is created from the input of two files:
+
+- shop file
+- person file
+
+Both files are CSV-formatted files structured according to the following specifications.
 
 ## Shop File Format
 
-TBD
+The shop file describes retail activity for specific time intervals.
 
 {{< table paging=1 >}}
 <thead class="thead-dark" responsive=1>
@@ -64,7 +69,7 @@ Example:
 
 ## Person File Format
 
-TBD
+The person file includes information about the shop manager.
 
 {{< table paging=1 >}}
 <thead class="thead-dark">
@@ -109,7 +114,7 @@ Example:
 
 # Database Format
 
-TBD
+The myDatabase table combines information from the shop and person files, and has the following format:
 
 {{< table paging=1 >}}
 <thead class="thead-dark">

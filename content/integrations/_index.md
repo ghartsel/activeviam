@@ -5,4 +5,4 @@ description = "ActiveViam Database Integrations"
 weight = 100
 +++
 
-This section includes descriptions of how to integrate with the various ActiveViam databases.
+This section includes descriptions of how to integrate with ActiveViam databases.
