@@ -9,16 +9,18 @@ This document describes the input file format and output database table format f
 
 # Input File Formats
 
-The myDatabase table is created from the input of two files:
+The myDatabase table is created from two CSV input files:
 
-- shop file
-- person file
+- shop file, `shop_<date>.csv`
+- person file, `person.csv`
 
-Both files are CSV-formatted files structured according to the following specifications.
+The input should comply with the following specifications.
 
 ## Shop File Format
 
 The shop file describes retail activity for specific time intervals.
+
+File naming convention: `shop_<date>.csv`, where `<date>` is formatted as `YYYYMMDD`.
 
 {{< table paging=1 >}}
 <thead class="thead-dark" responsive=1>
@@ -70,6 +72,8 @@ Example:
 ## Person File Format
 
 The person file includes information about the shop manager.
+
+File naming convention: `person.csv`.
 
 {{< table paging=1 >}}
 <thead class="thead-dark">
