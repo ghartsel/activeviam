@@ -23,9 +23,9 @@ The shop file describes retail activity for specific time intervals.
 {{< table paging=1 >}}
 <thead class="thead-dark" responsive=1>
     <tr>
-        <th>Field</th>
-        <th>Type</th>
-        <th>Required</th>
+        <th width="15%">Field</th>
+        <th width="10%">Type</th>
+        <th width="15%">Required</th>
         <th>Description</th>
     </tr>
 </thead>
@@ -74,9 +74,9 @@ The person file includes information about the shop manager.
 {{< table paging=1 >}}
 <thead class="thead-dark">
     <tr>
-        <th>Field</th>
-        <th>Type</th>
-        <th>Required</th>
+        <th width="15%">Field</th>
+        <th width="10%">Type</th>
+        <th width="15%">Required</th>
         <th>Description</th>
     </tr>
 </thead>
@@ -119,11 +119,11 @@ The myDatabase table combines information from the shop and person files, and ha
 {{< table paging=1 >}}
 <thead class="thead-dark">
     <tr>
-        <th>Field</th>
-        <th>Type</th>
-        <th>Null</th>
-        <th>Key</th>
-        <th>Default</th>
+        <th width="12%">Field</th>
+        <th width="9%">Type</th>
+        <th width="8%">Null</th>
+        <th width="9%">Key</th>
+        <th width="10%">Default</th>
         <th>Notes</th>
     </tr>
 </thead>
