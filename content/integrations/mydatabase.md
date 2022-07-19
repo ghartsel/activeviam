@@ -5,6 +5,8 @@ description = "myDatabase Integration Specification"
 weight = 100
 +++
 
+**Supported Version:** myDatabase 0.1
+
 This document describes the input file format and output database table format for integration with myDatabase.
 
 # Input File Formats
@@ -23,7 +25,7 @@ The shop file describes retail activity for specific time intervals.
 File naming convention: `shop_<date>.csv`, where `<date>` is formatted as `YYYYMMDD`.
 
 {{< table paging=1 >}}
-<thead class="thead-dark" responsive=1>
+<thead class="thead-dark">
     <tr>
         <th width="15%">Field</th>
         <th width="10%">Type</th>
